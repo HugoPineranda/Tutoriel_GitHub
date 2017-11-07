@@ -82,6 +82,8 @@ Par défaut, le projet "définitif" sera enregistré dans la branche ***master**
 
 La création de branches permet de travailler sur différentes versions d'un dépôt en même temps. On travaille sur une branche, on l'édite, puis on applique (ou non) à la branche ***master*** les modifications réalisées.
 
+Il est fortement recommandé de toujours travailler sur une autre branche que ***master***, et ensuite de fusionner les deux branches.
+
 Pour créer une branche à partir de la branche ***master*** :
 
 * Allez dans votre **dépôt** GitHub
