@@ -31,7 +31,7 @@ Il fonctionne avec le logiciel de gestion de versions décentralisées **Git**, 
 
 >*Pourquoi utiliser GitHub ?*
 
-Le principal atout est le contrôle de version. Si deux personnes travaillent sur le même fichier, il est impossible que leurs données soient perdues. En effet, Git effectue une sauvegarde de chaque modification effectuée. Il est ainsi possible de revenir à une version précedente du produit ou code.
+Le principal atout est le **contrôle de version**. Si deux personnes travaillent sur le même fichier, il est impossible que leurs données soient perdues. En effet, Git effectue une sauvegarde de chaque modification effectuée. Il est ainsi possible de revenir à une version précedente du produit ou code.
 
 **GitHub** a l'avantage d'être simple à prendre en main, même sans connaissances préalables en programmation. De plus, les utilisateurs conservent 100% de la propriété des projets déposés.
 
@@ -42,31 +42,33 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 ### ***Créer un dépôt:***
 
-* Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur *"New Repository"*.
+* Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur ***"New Repository"*** .
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/NewRepository.jpg)
 * Nommez votre dépôt et ajoutez lui une description.
-* Sélectionnez *"Initialize this repository with a README"*, sauf si vous importez un dépôt déjà existant, puis cliquez sur *"Create repository"*.
+* Sélectionnez ***"Initialize this repository with a README"*** , sauf si vous importez un dépôt déjà existant, puis cliquez sur ***"Create repository"*** .
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/NewRepository2.jpg)
 
-Notre dépôt a été créé et contient un fichier, *"Readme.md"* .
+Notre dépôt a été créé et contient un fichier, ***"Readme&#46;md"*** .
 
 ### ***Le Fork:*** ###
 
 Le ***fork*** est une technique de copie de dépôts, différente du clonage, permettant de copier le dépôt d'un autre utilisateur **GitHub** sur votre propre compte, afin de pouvoir travailler dessus sans influer sur le dépôt situé sur son compte.
 
 * Pour ***forker*** un dépôt, il suffit de cliquer sur le bouton ***fork*** situé en haut à droite de la fenêtre GitHub.<br>
-&#46;
+
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/fork.JPG)
     
-**Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/p-society/intro-to-open-source-2017"<br>
-En créant un **fork** du dépôt, nous l'avons récupéré sur notre compte sous l'URL "https://github.com/VotreNomUtilisateur/intro-to-open-source-2017"<br>
+**Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/**p-society**/intro-to-open-source-2017"<br>
+
+En créant un **fork** du dépôt, nous l'avons récupéré sur notre compte sous l'URL "https://github.com/**VotreNomUtilisateur**/intro-to-open-source-2017"<br>
+
 Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte original, à moins d'effectuer une requête.
 
 ### ***Ajouter/créer un fichier:***
 
-Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur GitHub:
+Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur **GitHub:**
 
 ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Edit.jpg)
 * Si vous voulez créer un dossier, ajoutez son emplacement lors de la création du fichier. GitHub le détectera automatiquement et le créera.
@@ -87,8 +89,8 @@ Il est fortement recommandé de toujours travailler sur une autre branche que **
 Pour créer une branche à partir de la branche ***master*** :
 
 * Allez dans votre **dépôt** GitHub
-* Cliquez sur le menu dropdown "Branch: master"
-* Entrez le nom de votre nouvelle branche. Il est fortement conseillé de choisir un nom explicite. Dans cette exemple, nous modifierons le fichier *"Readme.md"*, on appellera donc la branche "Readme-edits". Cliquez ensuite sur "Create branch".
+* Cliquez sur le menu dropdown ***"Branch: master"*** .
+* Entrez le nom de votre nouvelle branche. Il est fortement conseillé de choisir un nom explicite. Dans cette exemple, nous modifierons le fichier ***"Readme&#46;md"*** , on appellera donc la branche ***"Readme-edits"*** . Cliquez ensuite sur ***"Create branch"*** .
    
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/CreateBranch.jpg)
 * Vous êtes maintenant dans la branche ***Readme-edits***. Toute modification apportée aux fichiers via GitHub sera appliquée uniquement dans cette branche.
@@ -96,11 +98,11 @@ Pour créer une branche à partir de la branche ***master*** :
 
 ### ***Effectuer des modifications sur un fichier et les répertorier :***
 
-* On continuera avec l'exemple de la modification du fichier *"Readme.md"*.
-* Dans votre branche ***Readme-edits***, cliquez sur le fichier *"Readme.md"*, puis sur le bouton *"Edit this file"* symbolisé par un crayon :
+* On continuera avec l'exemple de la modification du fichier ***"Readme&#46;md"*** .
+* Dans votre branche ***Readme-edits***, cliquez sur le fichier ***"Readme&#46;md"*** , puis sur le bouton ***"Edit this file"*** symbolisé par un crayon :
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/EditFile.jpg)
-* Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt/ Nous allons rajouter une troisième ligne "Tutoriel d'utilisation de GitHub" et supprimer la deuxième ligne :
+* Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt. Nous allons rajouter une troisième ligne "Tutoriel d'utilisation de GitHub" et supprimer la deuxième ligne :
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Ligne3.jpg)
 * Dans la fenêtre  ***"Commit Changes"*** , donnez un titre  et une description à votre modification. Cette étape, le **Commit**, est très importante car elle apparaîtra sur **GitHub** et permet le suivi des différentes modifications apportées à un fichier.
@@ -137,7 +139,7 @@ Pour créer une branche à partir de la branche ***master*** :
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Merge.jpg)
 * Vous pourrez à nouveau commenter votre action avant de cliquer sur ***"Confirm merge"*** .
 * Un message apparaît vous confirmant les modifications. Vous avez la possibilité de supprimer la branche sur laquelle les modifications ont été effectuées.
-* Retournez dans la branche ***master***, on constate que le fichier Readme.md a bien été modifié.
+* Retournez dans la branche ***master***, on constate que le fichier ***Readme&#46;md*** a bien été modifié.
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Merge2.jpg)
 
@@ -189,7 +191,7 @@ Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous somme
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Clone.JPG)
     
-### ***Création du fichier Readme.md:***
+### ***Création du fichier Readme&#46;md:***
 
 * Toujours dans l'invité **Git Bash**, saisir la commande:<br>
 `touch Readme.md`<br>
@@ -234,7 +236,7 @@ Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas 
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/push.JPG)
 * Si l'on n'est pas déjà connecté, une fenêtre de connexion s'ouvrira. Entrer alors ses identifiants.
-* Vérifier sur GitHub: le fichier **Readme.md** apparaît, ainsi que le **commit** que nous avons indiqué.
+* Vérifier sur GitHub: le fichier ***Readme&#46;md*** apparaît, ainsi que le **commit** que nous avons indiqué.
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG)
 
@@ -272,7 +274,7 @@ Ou alors pour ajouter toutes les branches:<br>
 `gif merge <nom de la branche>`
 ### ***Modifier localement un fichier:*** ###
 
-* Effectuer les modifications sur le fichier. Dans cet exemple, nous rajouterons simplement une ligne à notre fichier "Readme.md".
+* Effectuer les modifications sur le fichier. Dans cet exemple, nous rajouterons simplement une ligne à notre fichier ***"Readme&#46;md"*** .
 
 * **Se placer dans la branche voulue** et saisir la commande:<br>
 `git add <nom du fichier>`<br>
