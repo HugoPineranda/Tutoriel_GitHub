@@ -4,6 +4,7 @@
 #### [1. Introduction à GitHub](#intro)
 #### [2. Utilisation via la plateforme GitHub.com](#github)
     - Créer un dépôt
+    - Le Fork
     - Ajouter/créer un fichier
     - Créer une branche
     - Effectuer des modifications sur un fichier et les répertorier (Commit)
@@ -11,7 +12,7 @@
     - Appliquer les modifications (Merge)
 #### [3. Utilisation en local via Git](#git)
     - Créer un dépôt local
-    - Conncter le dépôt local et le dépôt GitHub
+    - Connecter le dépôt local et le dépôt GitHub
     - Créer une branche locale
     - Appliquer des modifications localement
     - Envoyer et récupérer des informations depuis GitHub
@@ -47,6 +48,17 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 Notre dépôt a été créé et contient un fichier, *"Readme.md"* .
 
+### ***Le Fork:*** ###
+
+Le ***fork*** est une technique de copie de dépôts, différente du clonage, permettant de copier le dépôt d'un autre utilisateur **GitHub** sur votre propre compte, afin de pouvoir travailler dessus sans influer sur le dépôt situé sur son compte.
+
+* Pour ***forker*** un dépôt, il suffit de cliquer sur le bouton ***fork*** situé en haut à droite de la fenêtre GitHub.<br>
+
+    ![](fork.JPG)
+**Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/p-society/intro-to-open-source-2017"<br>
+En créant un **fork** du dépôt, nous l'avons récupéré sur notre compte sous l'URL "https://github.com/VotreNomUtilisateur/intro-to-open-source-2017"<br>
+Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte original, à moins d'effectuer une requête.
+
 ### ***Ajouter/créer un fichier:***
 
 Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur GitHub:
@@ -78,7 +90,7 @@ Pour créer une branche à partir de la branche ***master*** :
 ### ***Effectuer des modifications sur un fichier et les répertorier :***
 
 * On continuera avec l'exemple de la modification du fichier *"Readme.md"*.
-* Dans votre branche ***Readme-edits***, cliquez sur le fichier *"Readme.md"*, puis sur le bouton *"Edit this file"* symbloisé par un crayon :
+* Dans votre branche ***Readme-edits***, cliquez sur le fichier *"Readme.md"*, puis sur le bouton *"Edit this file"* symbolisé par un crayon :
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/EditFile.jpg)
 * Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt/ Nous allons rajouter une troisième ligne "Tutoriel d'utilisation de GitHub" et supprimer la deuxième ligne :
@@ -109,7 +121,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Si vous êtes satisfait, cliquez sur ***"Create pull request"*** , donnez un titre et une description à votre requête, puis cliquez à nouveau sur ***"Create pull request"*** .
 * Votre requête est créée. Les autres utilisateurs peuvent la passer en revue et la commenter dans l'onglet ***Pull requests***.
 
-### ***Appliquer les modifications (Merge)***
+### ***Appliquer les modifications (Merge):***
 
 * Une fois que vous avez effectué votre requête, vous (ou un autre utilisateur) avez la possibilité de la confirmer, et fusionner votre branche avec la branche de comparaison (ici, la branche ***master***).
 * Si **GitHub** détecte un conflit entre les deux branches, vous devrez au préalable résoudre ce conflit. 
@@ -138,6 +150,143 @@ Pour créer une branche à partir de la branche ***master*** :
 
 
 ## **3. Utilisation en local via Git** <a id="git"></a>
+
+Téléchargez la dernière version de Git [ici](https://git-scm.com/downloads "Télécharger Git") et installez-la.
+
+### ***Créer un dépôt local:***
+
+* Ouvrez **Git Bash**. Vous pouvez travailler avec CMD ou Terminal, mais il est fortement conseillé d'utiliser l'invité de commande fourni par **Git** car il reconnaît les commandes propres à ce logiciel.
+
+* Pour configurer votre profil, saisir: <br>
+`git config --global user.name "Votre Nom"`<br>
+Ensuite, saisir: <br>
+`git config --global user.email "VotreEmail@VotreEmail.com"`<br>
+Un fichier **.gitconfig** a été créé à l'emplacement **C:\Users\VotreNom** contenant votre nom et votre adresse email.
+* **Attention:** là où le nom n'a pas d'importance, l'email doit correspondre à l'adresse utilisée pour la création du compte GitHub.
+* Pour créer un répertoire dans le même emplacement (ici, nous l'appellerons ***MonProjet***), saisir la commande:<br>
+`mkdir ~/MonProjet`<br>
+* Pour se déplacer dans le répertoire créé, saisir la commande:<br>
+`cd ~/MonProjet`<br>
+Le répertoire sur lequel on travaille est maintenant le dossier MonProjet.
+* Pour que l'ordinateur reconnaîsse notre répertoire comme dépôt local git, saisir la commande:<br>
+`git init`<br>
+
+    ![](gitInit.jpg)
+Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous sommes maintenant par défaut dans la branche ***master*** de notre dépôt.
+
+### ***Cloner un dépôt depuis GitHub sur votre machine:*** ###
+
+* Pour créer une copie local à partir d'un dépôt sur GitHub, se rendre sur le dropdown ***Clone or download***, puis copier l'adresse indiquée. Retourner dans **Git Bash**, et saisir la commande:<br>
+`git clone <adresse>`<br>
+**Attention**, l'adresse doit se terminer par un **.git**.
+
+    ![](Clone.JPG)
+    
+### ***Création du fichier Readme.md:***
+
+* Toujours dans l'invité **Git Bash**, saisir la commande:<br>
+`touch Readme.md`<br>
+Le fichier a été créé dans notre répertoire.
+* Pour vérifier si **Git** le détecte, saisir la commande:<br>
+`git status`<br>
+
+    ![](untracked.JPG)
+    On remarque que **Git** répertorie notre fichier comme ***untracked***.
+* Pour que notre fichier soit détecté, saisir la commande:<br>
+`git add Readme.md`
+* Ne jamais oublier de consigner ses actions (**commit**), ici on saisira la commande:<br>
+`git commit -m "Ajout de Readme.md"`<br>
+où le texte entre guillemets décrit l'action effectuée.
+* Vérifier qu'il n'y a pas d'erreur en réutilisant la commande `git status`.
+
+### ***Connecter un dépôt local avec un dépôt GitHub*** ###
+
+* Il faut au préalable avoir créé un dépôt sur GitHub.com (dans cet exemple, **sans initialiser avec un Readme**, car nous l'ajouterons nous même à distance plus bas). De préférence, on utilisera le même nom pour le dépôt local et le dépôt sur GitHub.com.
+* Saisir la commande:<br> `git remote add origin https://github.com/user/MonProjet.git`<br>
+où ***user*** correspond à votre nom d'utilisateur GitHub et ***MonProjet*** correspond au nom de votre dépôt sur le site.<br>
+**Git** fait maintenant la liaison entre votre dépôt distant et votre dépôt local.
+* Pour vérifier que la liaison a été effectuée, saisir la commande:<br>
+`git remote -v`<br>
+qui donne la liste des origines distantes connues par votre dépôt local. Votre projet devraît y apparaître en **push** (envoi de données) et en **fetch** (réception de données).
+
+    ![](connect.JPG)
+* Nous avons maintenant connecté notre dépôt local à notre dépôt distant.
+
+### ***Cas d'une liaison avec un fork:***
+
+* Dans ce cas, il est important de configurer également la liaison avec le **fork**. Pour cela, saisir la commande:<br>
+`git remote add upstream https://github.com/original-user/MonProjet.git`<br>
+où ***original-user*** est le nom d'utilisateur du compte sur lequel vous avez **fork** le dépôt.
+* On vérifie avec la commande `git remote -v`: le dépôt sur votre compte est **origin** et le dépôt originel est **upstream**.
+
+### ***Envoi/Réception de fichiers*** ###
+* Pour envoyer nos fichiers vers le dépôt distant, saisir la commande:<br>
+`git push`<br>
+Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas spécifié la branche dans laquelle on travaille. Ici, nous utilisons la branche ***master***. Saisir la commande:<br>
+`git push --set-upstream origin master`
+
+    ![](push.JPG)
+* Si l'on n'est pas déjà connecté, une fenêtre de connexion s'ouvrira. Entrer alors ses identifiants.
+* Vérifier sur GitHub: le fichier **Readme.md** apparaît, ainsi que le **commit** que nous avons indiqué.
+
+    ![](ajout.JPG)
+
+### ***Créer et manipuler des branches*** ###
+
+* Pour **créer** une branche, saisir la commande:<br>
+`git checkout -b <nom de la branche>`<br>
+**Attention**, Git vous switchera automatiquement dans cette branche.
+
+* Pour **supprimer** une branche, saisir la commande:<br>
+`git branch -d <nom de la branche>`
+
+* Pour **changer** de branche sur laquelle travailler, saisir la commande:<br>
+`git checkout <nom de la branche>`
+
+* Pour **lister** toutes les branches, saisir la commande:<br>
+`git branch`<br>
+La branche courante s'affiche en **vert**.
+
+* Pour **ajouter à GitHub** la branche créée, saisir la commande:<br>
+`git push origin <nom de la branche>`<br>
+Ou alors pour ajouter toutes les branches:<br>
+`git push --all origin`
+
+* Pour supprimer de GitHub une branche, saisir la commande:<br>
+`git push origin :<nom de la branche>`
+
+### ***Modifier localement un fichier:*** ###
+
+* Effectuer les modifications sur le fichier. Dans cet exemple, nous rajouterons simplement une ligne à notre fichier "Readme.md".
+
+* **Se placer dans la branche voulue** et saisir la commande:<br>
+`git add <nom du fichier>`<br>
+Si l'on a modifié plusieurs fichiers et que l'on veut tous les ajouter à notre branche, saisir la commande:<br>
+`git add -A`
+
+* **Commit** le fichier avec la commande:<br>
+`git commit -m "message"`
+* Vérifier que tout est conforme avec la commande:<br>
+`git status`
+
+* Envoyer les modifications à **GitHub** avec la commande:<br> 
+`git push <nom du dépôt distant> <nom de la branche>`<br>
+Ou alors, si cette commande est la dernière commande `push` effectuée:<br>
+`git push`
+* En basculant sur **GitHub**, on constate que les modifications on bien été prises en compte et le commit est présent, **uniquement** dans la branche sur laquelle nous avons travaillé.
+
+### ***Effectuer une Pull Request localement:*** ###
+
+
+
+
+
+
+
+
+
+
+
 
 
 
