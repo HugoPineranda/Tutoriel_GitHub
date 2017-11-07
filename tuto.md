@@ -12,7 +12,7 @@
     - Appliquer les modifications (Merge)
 #### [3. Utilisation en local via Git](#git)
     - Créer un dépôt local
-    - Cloner un dépôt depuis GitHub sur votre machine
+    - Cloner un dépôt depuis GitHub sur votre machin
     - Connecter le dépôt local et le dépôt GitHub
     - Cas d'une liaison avec un fork
     - Envoi de fichiers
@@ -57,7 +57,7 @@ Notre dépôt a été créé et contient un fichier, *"Readme.md"* .
 Le ***fork*** est une technique de copie de dépôts, différente du clonage, permettant de copier le dépôt d'un autre utilisateur **GitHub** sur votre propre compte, afin de pouvoir travailler dessus sans influer sur le dépôt situé sur son compte.
 
 * Pour ***forker*** un dépôt, il suffit de cliquer sur le bouton ***fork*** situé en haut à droite de la fenêtre GitHub.<br>
-
+&#46;
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/fork.JPG)
     
 **Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/p-society/intro-to-open-source-2017"<br>
