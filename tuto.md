@@ -200,7 +200,7 @@ Le fichier a été créé dans notre répertoire.
 où le texte entre guillemets décrit l'action effectuée.
 * Vérifier qu'il n'y a pas d'erreur en réutilisant la commande `git status`.
 
-### ***Connecter un dépôt local avec un dépôt GitHub*** ###
+### ***Connecter un dépôt local avec un dépôt GitHub:*** ###
 
 * Il faut au préalable avoir créé un dépôt sur GitHub.com (dans cet exemple, **sans initialiser avec un Readme**, car nous l'ajouterons nous même à distance plus bas). De préférence, on utilisera le même nom pour le dépôt local et le dépôt sur GitHub.com.
 * Saisir la commande:<br> `git remote add origin https://github.com/user/MonProjet.git`<br>
@@ -220,7 +220,7 @@ qui donne la liste des origines distantes connues par votre dépôt local. Votre
 où ***original-user*** est le nom d'utilisateur du compte sur lequel vous avez **fork** le dépôt.
 * On vérifie avec la commande `git remote -v`: le dépôt sur votre compte est **origin** et le dépôt originel est **upstream**.
 
-### ***Envoi/Réception de fichiers*** ###
+### ***Envoi de fichiers:*** ###
 * Pour envoyer nos fichiers vers le dépôt distant, saisir la commande:<br>
 `git push`<br>
 Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas spécifié la branche dans laquelle on travaille. Ici, nous utilisons la branche ***master***. Saisir la commande:<br>
@@ -232,7 +232,12 @@ Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas 
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG)
 
-### ***Créer et manipuler des branches*** ###
+### ***Réception de fichiers:*** ###
+
+* Pour mettre à jour les fichiers à partir du dépôt distant, saisir la commande:<br>
+`git pull`
+
+### ***Créer et manipuler des branches:*** ###
 
 * Pour **créer** une branche, saisir la commande:<br>
 `git checkout -b <nom de la branche>`<br>
@@ -255,7 +260,10 @@ Ou alors pour ajouter toutes les branches:<br>
 
 * Pour supprimer de GitHub une branche, saisir la commande:<br>
 `git push origin :<nom de la branche>`
+### ***Fusionner deux branches:*** ###
 
+* Pour fusionner une branche avec votre branche active, saisir la commande:<br>
+`gif merge <nom de la branche>`
 ### ***Modifier localement un fichier:*** ###
 
 * Effectuer les modifications sur le fichier. Dans cet exemple, nous rajouterons simplement une ligne à notre fichier "Readme.md".
@@ -275,8 +283,6 @@ Si l'on a modifié plusieurs fichiers et que l'on veut tous les ajouter à notre
 Ou alors, si cette commande est la dernière commande `push` effectuée:<br>
 `git push`
 * En basculant sur **GitHub**, on constate que les modifications on bien été prises en compte et le commit est présent, **uniquement** dans la branche sur laquelle nous avons travaillé.
-
-### ***Effectuer une Pull Request localement:*** ###
 
 
 
