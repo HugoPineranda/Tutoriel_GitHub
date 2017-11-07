@@ -12,10 +12,14 @@
     - Appliquer les modifications (Merge)
 #### [3. Utilisation en local via Git](#git)
     - Créer un dépôt local
+    - Cloner un dépôt depuis GitHub sur votre machine
     - Connecter le dépôt local et le dépôt GitHub
-    - Créer une branche locale
-    - Appliquer des modifications localement
-    - Envoyer et récupérer des informations depuis GitHub
+    - Cas d'une liaison avec un fork
+    - Envoi de fichiers
+    - Réception de fichiers
+    - Créer et manipuler des branches
+    - Fusionner deux branches (Merge)
+    - Modifier localement un fichier
 
 
 ## **1. Introduction à GitHub et Git**<a id="intro"></a>
