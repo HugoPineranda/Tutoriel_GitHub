@@ -42,7 +42,7 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 ## <a id="github" style="text-decoration:none">**2. Utilisation via la plateforme GitHub.com** </a>
 
----
+
 ### ***Créer un dépôt:***
 
 * Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur ***"New Repository"*** .
@@ -158,7 +158,7 @@ Pour créer une branche à partir de la branche ***master*** :
 
 Téléchargez la dernière version de Git [ici](https://git-scm.com/downloads "Télécharger Git") et installez-la.
 
----
+
 ### ***Créer un dépôt local:***
 
 * Ouvrez **Git Bash**. Vous pouvez travailler avec CMD ou Terminal, mais il est fortement conseillé d'utiliser l'invité de commande fourni par **Git** car il reconnaît les commandes propres à ce logiciel.
