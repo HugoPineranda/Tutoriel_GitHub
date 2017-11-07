@@ -279,7 +279,7 @@ Ou alors pour ajouter toutes les branches:<br>
 ### ***Fusionner deux branches:*** ###
 
 * Pour fusionner une branche avec votre branche active, saisir la commande:<br>
-`gif merge <nom de la branche>`
+`git merge <nom de la branche>`
 
 ---
 ### ***Modifier localement un fichier:*** ###
