@@ -159,7 +159,7 @@ Pour créer une branche à partir de la branche ***master*** :
 Téléchargez la dernière version de Git [ici](https://git-scm.com/downloads "Télécharger Git") et installez-la.
 
 
-### ***Créer un dépôt local:***
+###  ***Créer un dépôt local:***
 
 * Ouvrez **Git Bash**. Vous pouvez travailler avec CMD ou Terminal, mais il est fortement conseillé d'utiliser l'invité de commande fourni par **Git** car il reconnaît les commandes propres à ce logiciel.
 
@@ -245,7 +245,9 @@ Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas 
 ---
 ### ***Réception de fichiers:*** ###
 
-* Pour mettre à jour les fichiers à partir du dépôt distant, saisir la commande:<br>
+* Pour mettre à jour les fichiers locaux à partir du dépôt distant, saisir la commande:<br>
+`git fetch`
+* Si vous voulez directement **merge** les modifications dans votre branche active, saisir plutôt la commande:<br>
 `git pull`
 
 ---
