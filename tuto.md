@@ -21,8 +21,9 @@
     - Fusionner deux branches (Merge)
     - Modifier localement un fichier
 
+---
 
-## **1. Introduction à GitHub et Git**<a id="intro"></a>
+## <a id="intro" style="text-decoration:none">**1. Introduction à GitHub et Git**</a>
 >*Qu'est-ce que GitHub ?*
 
 **GitHub** est le plus grand espace de stockage de travaux collaboratifs au monde. C'est un service en ligne d'hébergement de **repositories**. Il permet la communication facile entre les développeurs et le partage de code.
@@ -37,9 +38,11 @@ Le principal atout est le **contrôle de version**. Si deux personnes travaillen
 
 L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est beaucoup plus intuitive; en effet l'utilisation de Git nécessite de passer par un invité de commande type CMD ou, **Git Bash**.
 
+---
 
-## **2. Utilisation via la plateforme GitHub.com** <a id="github"></a>
+## <a id="github" style="text-decoration:none">**2. Utilisation via la plateforme GitHub.com** </a>
 
+---
 ### ***Créer un dépôt:***
 
 * Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur ***"New Repository"*** .
@@ -52,6 +55,7 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 Notre dépôt a été créé et contient un fichier, ***"Readme&#46;md"*** .
 
+---
 ### ***Le Fork:*** ###
 
 Le ***fork*** est une technique de copie de dépôts, différente du clonage, permettant de copier le dépôt d'un autre utilisateur **GitHub** sur votre propre compte, afin de pouvoir travailler dessus sans influer sur le dépôt situé sur son compte.
@@ -66,6 +70,7 @@ En créant un **fork** du dépôt, nous l'avons récupéré sur notre compte sou
 
 Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte original, à moins d'effectuer une requête.
 
+---
 ### ***Ajouter/créer un fichier:***
 
 Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur **GitHub:**
@@ -78,6 +83,7 @@ Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/SousSousDossier.jpg)
 
+---
 ### ***Créer une branche:***
 
 Par défaut, le projet "définitif" sera enregistré dans la branche ***master***.
@@ -96,6 +102,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Vous êtes maintenant dans la branche ***Readme-edits***. Toute modification apportée aux fichiers via GitHub sera appliquée uniquement dans cette branche.
 * Pour changer de branche, retournez dans le dropdown menu et sélectionnez une autre branche.
 
+---
 ### ***Effectuer des modifications sur un fichier et les répertorier :***
 
 * On continuera avec l'exemple de la modification du fichier ***"Readme&#46;md"*** .
@@ -115,6 +122,7 @@ Pour créer une branche à partir de la branche ***master*** :
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/NotifCommit.jpg)
 * Par contre, si vous allez dans la branche ***master***, les modifications n'ont pas été appliquées. Pour cela, il faut faire une ***pull request***.
 
+---
 ### ***Effectuer une requête d'application des modifications (Pull Request) :***
 
 * ***Pull Request*** est une requête d'application des modifications appliquées à une branche dans une autre. Elle permet aussi de voir les différences entre deux branches en les comparant. Ici, on appliquera les modifications de la branche ***Readme-edits*** vers la branche ***master***.
@@ -130,6 +138,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Si vous êtes satisfait, cliquez sur ***"Create pull request"*** , donnez un titre et une description à votre requête, puis cliquez à nouveau sur ***"Create pull request"*** .
 * Votre requête est créée. Les autres utilisateurs peuvent la passer en revue et la commenter dans l'onglet ***Pull requests***.
 
+---
 ### ***Appliquer les modifications (Merge):***
 
 * Une fois que vous avez effectué votre requête, vous (ou un autre utilisateur) avez la possibilité de la confirmer, et fusionner votre branche avec la branche de comparaison (ici, la branche ***master***).
@@ -143,25 +152,13 @@ Pour créer une branche à partir de la branche ***master*** :
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Merge2.jpg)
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## **3. Utilisation en local via Git** <a id="git"></a>
+## <a id="git" style="text-decoration:none">**3. Utilisation en local via Git** </a>
 
 Téléchargez la dernière version de Git [ici](https://git-scm.com/downloads "Télécharger Git") et installez-la.
 
+---
 ### ***Créer un dépôt local:***
 
 * Ouvrez **Git Bash**. Vous pouvez travailler avec CMD ou Terminal, mais il est fortement conseillé d'utiliser l'invité de commande fourni par **Git** car il reconnaît les commandes propres à ce logiciel.
@@ -183,6 +180,7 @@ Le répertoire sur lequel on travaille est maintenant le dossier MonProjet.
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.jpg)
 Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous sommes maintenant par défaut dans la branche ***master*** de notre dépôt.
 
+---
 ### ***Cloner un dépôt depuis GitHub sur votre machine:*** ###
 
 * Pour créer une copie local à partir d'un dépôt sur GitHub, se rendre sur le dropdown ***Clone or download***, puis copier l'adresse indiquée. Retourner dans **Git Bash**, et saisir la commande:<br>
@@ -190,7 +188,8 @@ Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous somme
 **Attention**, l'adresse doit se terminer par un **.git**.
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Clone.JPG)
-    
+
+ ---   
 ### ***Création du fichier Readme&#46;md:***
 
 * Toujours dans l'invité **Git Bash**, saisir la commande:<br>
@@ -208,6 +207,7 @@ Le fichier a été créé dans notre répertoire.
 où le texte entre guillemets décrit l'action effectuée.
 * Vérifier qu'il n'y a pas d'erreur en réutilisant la commande `git status`.
 
+---
 ### ***Connecter un dépôt local avec un dépôt GitHub:*** ###
 
 * Il faut au préalable avoir créé un dépôt sur GitHub.com (dans cet exemple, **sans initialiser avec un Readme**, car nous l'ajouterons nous même à distance plus bas). De préférence, on utilisera le même nom pour le dépôt local et le dépôt sur GitHub.com.
@@ -221,6 +221,7 @@ qui donne la liste des origines distantes connues par votre dépôt local. Votre
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/connect.JPG)
 * Nous avons maintenant connecté notre dépôt local à notre dépôt distant.
 
+---
 ### ***Cas d'une liaison avec un fork:***
 
 * Dans ce cas, il est important de configurer également la liaison avec le **fork**. Pour cela, saisir la commande:<br>
@@ -228,6 +229,7 @@ qui donne la liste des origines distantes connues par votre dépôt local. Votre
 où ***original-user*** est le nom d'utilisateur du compte sur lequel vous avez **fork** le dépôt.
 * On vérifie avec la commande `git remote -v`: le dépôt sur votre compte est **origin** et le dépôt originel est **upstream**.
 
+---
 ### ***Envoi de fichiers:*** ###
 * Pour envoyer nos fichiers vers le dépôt distant, saisir la commande:<br>
 `git push`<br>
@@ -240,11 +242,13 @@ Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas 
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG)
 
+---
 ### ***Réception de fichiers:*** ###
 
 * Pour mettre à jour les fichiers à partir du dépôt distant, saisir la commande:<br>
 `git pull`
 
+---
 ### ***Créer et manipuler des branches:*** ###
 
 * Pour **créer** une branche, saisir la commande:<br>
@@ -268,10 +272,14 @@ Ou alors pour ajouter toutes les branches:<br>
 
 * Pour supprimer de GitHub une branche, saisir la commande:<br>
 `git push origin :<nom de la branche>`
+
+---
 ### ***Fusionner deux branches:*** ###
 
 * Pour fusionner une branche avec votre branche active, saisir la commande:<br>
 `gif merge <nom de la branche>`
+
+---
 ### ***Modifier localement un fichier:*** ###
 
 * Effectuer les modifications sur le fichier. Dans cet exemple, nous rajouterons simplement une ligne à notre fichier ***"Readme&#46;md"*** .
@@ -291,6 +299,7 @@ Si l'on a modifié plusieurs fichiers et que l'on veut tous les ajouter à notre
 Ou alors, si cette commande est la dernière commande `push` effectuée:<br>
 `git push`
 * En basculant sur **GitHub**, on constate que les modifications on bien été prises en compte et le commit est présent, **uniquement** dans la branche sur laquelle nous avons travaillé.
+---
 
 
 
