@@ -55,6 +55,7 @@ Le ***fork*** est une technique de copie de dépôts, différente du clonage, pe
 * Pour ***forker*** un dépôt, il suffit de cliquer sur le bouton ***fork*** situé en haut à droite de la fenêtre GitHub.<br>
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/fork.JPG)
+    
 **Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/p-society/intro-to-open-source-2017"<br>
 En créant un **fork** du dépôt, nous l'avons récupéré sur notre compte sous l'URL "https://github.com/VotreNomUtilisateur/intro-to-open-source-2017"<br>
 Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte original, à moins d'effectuer une requête.
