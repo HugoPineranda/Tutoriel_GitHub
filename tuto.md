@@ -54,7 +54,7 @@ Le ***fork*** est une technique de copie de dépôts, différente du clonage, pe
 
 * Pour ***forker*** un dépôt, il suffit de cliquer sur le bouton ***fork*** situé en haut à droite de la fenêtre GitHub.<br>
 
-    ![](fork.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/fork.JPG)
 **Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/p-society/intro-to-open-source-2017"<br>
 En créant un **fork** du dépôt, nous l'avons récupéré sur notre compte sous l'URL "https://github.com/VotreNomUtilisateur/intro-to-open-source-2017"<br>
 Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte original, à moins d'effectuer une requête.
@@ -171,7 +171,7 @@ Le répertoire sur lequel on travaille est maintenant le dossier MonProjet.
 * Pour que l'ordinateur reconnaîsse notre répertoire comme dépôt local git, saisir la commande:<br>
 `git init`<br>
 
-    ![](gitInit.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.jpg)
 Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous sommes maintenant par défaut dans la branche ***master*** de notre dépôt.
 
 ### ***Cloner un dépôt depuis GitHub sur votre machine:*** ###
@@ -180,7 +180,7 @@ Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous somme
 `git clone <adresse>`<br>
 **Attention**, l'adresse doit se terminer par un **.git**.
 
-    ![](Clone.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Clone.JPG)
     
 ### ***Création du fichier Readme.md:***
 
@@ -190,7 +190,7 @@ Le fichier a été créé dans notre répertoire.
 * Pour vérifier si **Git** le détecte, saisir la commande:<br>
 `git status`<br>
 
-    ![](untracked.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/untracked.JPG)
     On remarque que **Git** répertorie notre fichier comme ***untracked***.
 * Pour que notre fichier soit détecté, saisir la commande:<br>
 `git add Readme.md`
@@ -209,7 +209,7 @@ où ***user*** correspond à votre nom d'utilisateur GitHub et ***MonProjet*** c
 `git remote -v`<br>
 qui donne la liste des origines distantes connues par votre dépôt local. Votre projet devraît y apparaître en **push** (envoi de données) et en **fetch** (réception de données).
 
-    ![](connect.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/connect.JPG)
 * Nous avons maintenant connecté notre dépôt local à notre dépôt distant.
 
 ### ***Cas d'une liaison avec un fork:***
@@ -225,11 +225,11 @@ où ***original-user*** est le nom d'utilisateur du compte sur lequel vous avez 
 Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas spécifié la branche dans laquelle on travaille. Ici, nous utilisons la branche ***master***. Saisir la commande:<br>
 `git push --set-upstream origin master`
 
-    ![](push.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/push.JPG)
 * Si l'on n'est pas déjà connecté, une fenêtre de connexion s'ouvrira. Entrer alors ses identifiants.
 * Vérifier sur GitHub: le fichier **Readme.md** apparaît, ainsi que le **commit** que nous avons indiqué.
 
-    ![](ajout.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG)
 
 ### ***Créer et manipuler des branches*** ###
 
