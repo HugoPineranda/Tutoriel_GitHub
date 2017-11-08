@@ -75,10 +75,10 @@ Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte 
 
 Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur **GitHub:**
 
-![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/edit.JPG)
+<img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/edit.JPG height="40%" width="40%">
 * Si vous voulez créer un dossier, ajoutez son emplacement lors de la création du fichier et finisses par un `/`. GitHub le détectera automatiquement et le créera.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/sousDossier.JPG)
+   <img src=https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/sousDossier.JPG height="40%" width="40%">
 * Vous pouvez réaliser cette action autant de fois que nécessaire, mais votre dossier ne sera pas créé s'il est vide. Vous devez y ajouter un fichier.
 
 ---
@@ -96,7 +96,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Cliquez sur le menu dropdown ***"Branch: master"*** .
 * Entrez le nom de votre nouvelle branche. Il est fortement conseillé de choisir un nom explicite. Dans cette exemple, nous modifierons le fichier ***"Readme&#46;md"*** , on appellera donc la branche ***"Readme-edits"*** . Cliquez ensuite sur ***"Create branch"*** .
    
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/createBranch.JPG)
+   <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/createBranch.JPG" height="50%" width="50%">
 * Vous êtes maintenant dans la branche ***Readme-edits***. Toute modification apportée aux fichiers via GitHub sera appliquée uniquement dans cette branche.
 * Pour changer de branche, retournez dans le dropdown menu et sélectionnez une autre branche.
 
