@@ -96,7 +96,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Cliquez sur le menu dropdown ***"Branch: master"*** .
 * Entrez le nom de votre nouvelle branche. Il est fortement conseillé de choisir un nom explicite. Dans cette exemple, nous modifierons le fichier ***"Readme&#46;md"*** , on appellera donc la branche ***"Readme-edits"*** . Cliquez ensuite sur ***"Create branch"*** .
    
-   <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/createBranch.JPG" height="50%" width="50%">
+   <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/createBranch.JPG" height="30%" width="30%">
 * Vous êtes maintenant dans la branche ***Readme-edits***. Toute modification apportée aux fichiers via GitHub sera appliquée uniquement dans cette branche.
 * Pour changer de branche, retournez dans le dropdown menu et sélectionnez une autre branche.
 
@@ -106,7 +106,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * On continuera avec l'exemple de la modification du fichier ***"Readme&#46;md"*** .
 * Dans votre branche ***Readme-edits***, cliquez sur le fichier ***"Readme&#46;md"*** , puis sur le bouton ***"Edit this file"*** symbolisé par un crayon :
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/editFile.png)
+   <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/editFile.png" height="40%" width="40%">
 * Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt. Nous allons rajouter une seconde ligne "Tutoriel d'utilisation de GitHub" et supprimer la première ligne :
 
     ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ligne2.JPG)
