@@ -47,11 +47,11 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 * Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur ***"New Repository"*** .
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository.png" height="30%" width="30%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository.png" height="20%" width="20%">
 * Nommez votre dépôt et ajoutez lui une description.
 * Sélectionnez ***"Initialize this repository with a README"*** , sauf si vous importez un dépôt déjà existant, puis cliquez sur ***"Create repository"*** .
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository2.JPG" height="50%" width="50%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository2.JPG" height="40%" width="40%">
 
 Notre dépôt a été créé et contient un fichier, ***"Readme&#46;md"*** .
 
@@ -62,7 +62,7 @@ Le ***fork*** est une technique de copie de dépôts, différente du clonage, pe
 
 * Pour ***forker*** un dépôt, il suffit de cliquer sur le bouton ***fork*** situé en haut à droite de la fenêtre GitHub.<br>
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/fork.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/fork.JPG" height="40%" width="40%">
     
 **Exemple:** Nous voulons créer une copie du dépôt ***"intro to open-source"*** créé par le compte **p-society**, sur notre compte. L'URL du dépôt est "https://github.com/p-society/intro-to-open-source-2017"<br>
 
