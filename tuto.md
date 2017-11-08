@@ -51,7 +51,7 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 * Nommez votre dépôt et ajoutez lui une description.
 * Sélectionnez ***"Initialize this repository with a README"*** , sauf si vous importez un dépôt déjà existant, puis cliquez sur ***"Create repository"*** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository2.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository2.JPG" width="100" height="100">
 
 Notre dépôt a été créé et contient un fichier, ***"Readme&#46;md"*** .
 
