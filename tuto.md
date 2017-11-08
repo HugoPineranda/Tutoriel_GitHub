@@ -47,7 +47,7 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 * Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur ***"New Repository"*** .
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository.png">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository.png" height="30%" width="30%">
 * Nommez votre dépôt et ajoutez lui une description.
 * Sélectionnez ***"Initialize this repository with a README"*** , sauf si vous importez un dépôt déjà existant, puis cliquez sur ***"Create repository"*** .
 
