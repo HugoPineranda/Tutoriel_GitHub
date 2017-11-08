@@ -117,7 +117,7 @@ Pour créer une branche à partir de la branche ***master*** :
     <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/commitChanges.JPG" height="40%" width="40%">
 * On remarquera que le ***Commit*** apparaît dans votre branche ***Readme-edits***, avec l'utilisateur et la date de modification.
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG" height="60%" width="60%">
 * Par contre, si vous allez dans la branche ***master***, les modifications n'ont pas été appliquées. Pour cela, il faut faire une ***pull request***.
 
 ---
@@ -126,10 +126,10 @@ Pour créer une branche à partir de la branche ***master*** :
 * ***Pull Request*** est une requête d'application des modifications appliquées à une branche dans une autre. Elle permet aussi de voir les différences entre deux branches en les comparant. Ici, on appliquera les modifications de la branche ***Readme-edits*** vers la branche ***master***.
 * Rendez-vous dans l'onglet ***Pull requests*** et cliquez sur ***"New pull request"*** .
    
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest.JPG" height="60%" width="60%">
 * Choisissez les deux branches à comparer: `base` sera la branche à laquelle on veut appliquer les modifications (ici, ***master***), et `compare` celle que l'on a déjà modifié (ici, ***Readme-edits***)
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest2.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest2.JPG" height="60%" width="60%">
 * Plus bas, vous avez accès à la comparaison entre les 2 branches: les additions en vert et les suppressions en rouge.
 
     <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/modifs.JPG" height="40%" width="40%">
@@ -143,12 +143,12 @@ Pour créer une branche à partir de la branche ***master*** :
 * Si **GitHub** détecte un conflit entre les deux branches, vous devrez au préalable résoudre ce conflit. 
 * Lorsque vous n'avez pas de conflit, vous pouvez alors appliquer les modifications en cliquant sur ***"Merge pull request"*** .
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.JPG" height="60%" width="60%">
 * Vous pourrez à nouveau commenter votre action avant de cliquer sur ***"Confirm merge"*** .
 * Un message apparaît vous confirmant les modifications. Vous avez la possibilité de supprimer la branche sur laquelle les modifications ont été effectuées.
 * Retournez dans la branche ***master***, on constate que le fichier ***Readme&#46;md*** a bien été modifié.
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge2.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge2.JPG" height="60%" width="60%">
 
 ---
 
@@ -175,7 +175,7 @@ Le répertoire sur lequel on travaille est maintenant le dossier MonProjet.
 * Pour que l'ordinateur reconnaîsse notre répertoire comme dépôt local git, saisir la commande:<br>
 `git init`<br>
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.JPG" height="60%" width="60%">
 Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous sommes maintenant par défaut dans la branche ***master*** de notre dépôt.
 
 ---
@@ -196,7 +196,8 @@ Le fichier a été créé dans notre répertoire.
 * Pour vérifier si **Git** le détecte, saisir la commande:<br>
 `git status`<br>
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/untracked.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/untracked.JPG" height="60%" width="60%">
+    
     On remarque que **Git** répertorie notre fichier comme ***untracked***.
 * Pour que notre fichier soit détecté, saisir la commande:<br>
 `git add Readme.md`
