@@ -143,12 +143,12 @@ Pour créer une branche à partir de la branche ***master*** :
 * Si **GitHub** détecte un conflit entre les deux branches, vous devrez au préalable résoudre ce conflit. 
 * Lorsque vous n'avez pas de conflit, vous pouvez alors appliquer les modifications en cliquant sur ***"Merge pull request"*** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.JPG)
 * Vous pourrez à nouveau commenter votre action avant de cliquer sur ***"Confirm merge"*** .
 * Un message apparaît vous confirmant les modifications. Vous avez la possibilité de supprimer la branche sur laquelle les modifications ont été effectuées.
 * Retournez dans la branche ***master***, on constate que le fichier ***Readme&#46;md*** a bien été modifié.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Merge2.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge2.JPG)
 
 ---
 
