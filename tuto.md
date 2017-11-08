@@ -217,7 +217,7 @@ où ***user*** correspond à votre nom d'utilisateur GitHub et ***MonProjet*** c
 `git remote -v`<br>
 qui donne la liste des origines distantes connues par votre dépôt local. Votre projet devraît y apparaître en **push** (envoi de données) et en **fetch** (réception de données).
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/connect.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/connect.JPG" height="60%" width="60%">
 * Nous avons maintenant connecté notre dépôt local à notre dépôt distant.
 
 ---
@@ -235,11 +235,11 @@ où ***original-user*** est le nom d'utilisateur du compte sur lequel vous avez 
 Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas spécifié la branche dans laquelle on travaille. Ici, nous utilisons la branche ***master***. Saisir la commande:<br>
 `git push --set-upstream origin master`
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/push.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/push.JPG" height="60%" width="60%">
 * Si l'on n'est pas déjà connecté, une fenêtre de connexion s'ouvrira. Entrer alors ses identifiants.
 * Vérifier sur GitHub: le fichier ***Readme&#46;md*** apparaît, ainsi que le **commit** que nous avons indiqué.
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG" height="40%" width="40%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG" height="80%" width="80%">
 
 ---
 ### ***Réception de fichiers:*** ###
