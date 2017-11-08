@@ -75,7 +75,7 @@ Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte 
 
 Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur **GitHub:**
 
-<img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/edit.JPG height="40%" width="40%">
+<img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/edit.JPG" height="40%" width="40%">
 * Si vous voulez créer un dossier, ajoutez son emplacement lors de la création du fichier et finisses par un `/`. GitHub le détectera automatiquement et le créera.
 
    <img src=https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/sousDossier.JPG height="40%" width="40%">
