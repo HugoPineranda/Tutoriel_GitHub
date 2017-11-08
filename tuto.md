@@ -175,7 +175,7 @@ Le répertoire sur lequel on travaille est maintenant le dossier MonProjet.
 * Pour que l'ordinateur reconnaîsse notre répertoire comme dépôt local git, saisir la commande:<br>
 `git init`<br>
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.JPG)
 Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous sommes maintenant par défaut dans la branche ***master*** de notre dépôt.
 
 ---
@@ -185,7 +185,7 @@ Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous somme
 `git clone <adresse>`<br>
 **Attention**, l'adresse doit se terminer par un **.git**.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Clone.JPG)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/clone.JPG)
 
  ---   
 ### ***Création du fichier Readme&#46;md:***
