@@ -47,11 +47,11 @@ L'avantage de **GitHub** par rapport à **Git** est l'interface visuelle qui est
 
 * Rendez vous su Github.com. Après avoir créé votre compte, Cliquez sur le + en haut à droite, puis sur ***"New Repository"*** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/NewRepository.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository.png)
 * Nommez votre dépôt et ajoutez lui une description.
 * Sélectionnez ***"Initialize this repository with a README"*** , sauf si vous importez un dépôt déjà existant, puis cliquez sur ***"Create repository"*** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/NewRepository2.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/newRepository2.JPG)
 
 Notre dépôt a été créé et contient un fichier, ***"Readme&#46;md"*** .
 
@@ -75,13 +75,11 @@ Modifier le dépôt n'entraînera pas de modifications sur le dépôt du compte 
 
 Vous avez la possibilité d'uploader un fichier dans votre dépôt ou bien de le créer via l'éditeur **GitHub:**
 
-![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Edit.jpg)
-* Si vous voulez créer un dossier, ajoutez son emplacement lors de la création du fichier. GitHub le détectera automatiquement et le créera.
+![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/edit.JPG)
+* Si vous voulez créer un dossier, ajoutez son emplacement lors de la création du fichier et finisses par un `/`. GitHub le détectera automatiquement et le créera.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/SousDossier.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/sousDossier.JPG)
 * Vous pouvez réaliser cette action autant de fois que nécessaire, mais votre dossier ne sera pas créé s'il est vide. Vous devez y ajouter un fichier.
-
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/SousSousDossier.jpg)
 
 ---
 ### ***Créer une branche:***
@@ -98,7 +96,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Cliquez sur le menu dropdown ***"Branch: master"*** .
 * Entrez le nom de votre nouvelle branche. Il est fortement conseillé de choisir un nom explicite. Dans cette exemple, nous modifierons le fichier ***"Readme&#46;md"*** , on appellera donc la branche ***"Readme-edits"*** . Cliquez ensuite sur ***"Create branch"*** .
    
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/CreateBranch.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/createBranch.JPG)
 * Vous êtes maintenant dans la branche ***Readme-edits***. Toute modification apportée aux fichiers via GitHub sera appliquée uniquement dans cette branche.
 * Pour changer de branche, retournez dans le dropdown menu et sélectionnez une autre branche.
 
@@ -108,18 +106,18 @@ Pour créer une branche à partir de la branche ***master*** :
 * On continuera avec l'exemple de la modification du fichier ***"Readme&#46;md"*** .
 * Dans votre branche ***Readme-edits***, cliquez sur le fichier ***"Readme&#46;md"*** , puis sur le bouton ***"Edit this file"*** symbolisé par un crayon :
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/EditFile.jpg)
-* Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt. Nous allons rajouter une troisième ligne "Tutoriel d'utilisation de GitHub" et supprimer la deuxième ligne :
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/editFile.png)
+* Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt. Nous allons rajouter une seconde ligne "Tutoriel d'utilisation de GitHub" et supprimer la première ligne :
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Ligne3.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ligne2.JPG)
 * Dans la fenêtre  ***"Commit Changes"*** , donnez un titre  et une description à votre modification. Cette étape, le **Commit**, est très importante car elle apparaîtra sur **GitHub** et permet le suivi des différentes modifications apportées à un fichier.
 * Vous avez ensuite le choix: enregistrer les modifications sur la branche en cours, ou créer une nouvelle branche et faire une ***pull request*** que nous verrons plus tard.
 * Cliquez ensuite sur **"Commit Changes"** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Commit.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/commitChanges.JPG)
 * On remarquera que le ***Commit*** apparaît dans votre branche ***Readme-edits***, avec l'utilisateur et la date de modification.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/NotifCommit.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG)
 * Par contre, si vous allez dans la branche ***master***, les modifications n'ont pas été appliquées. Pour cela, il faut faire une ***pull request***.
 
 ---
@@ -128,13 +126,13 @@ Pour créer une branche à partir de la branche ***master*** :
 * ***Pull Request*** est une requête d'application des modifications appliquées à une branche dans une autre. Elle permet aussi de voir les différences entre deux branches en les comparant. Ici, on appliquera les modifications de la branche ***Readme-edits*** vers la branche ***master***.
 * Rendez-vous dans l'onglet ***Pull requests*** et cliquez sur ***"New pull request"*** .
    
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/PullRequest.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest.JPG)
 * Choisissez les deux branches à comparer: `base` sera la branche à laquelle on veut appliquer les modifications (ici, ***master***), et `compare` celle que l'on a déjà modifié (ici, ***Readme-edits***)
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/PullRequest2.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest2.JPG)
 * Plus bas, vous avez accès à la comparaison entre les 2 branches: les additions en vert et les suppressions en rouge.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Modifs.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/modifs.JPG)
 * Si vous êtes satisfait, cliquez sur ***"Create pull request"*** , donnez un titre et une description à votre requête, puis cliquez à nouveau sur ***"Create pull request"*** .
 * Votre requête est créée. Les autres utilisateurs peuvent la passer en revue et la commenter dans l'onglet ***Pull requests***.
 
@@ -145,7 +143,7 @@ Pour créer une branche à partir de la branche ***master*** :
 * Si **GitHub** détecte un conflit entre les deux branches, vous devrez au préalable résoudre ce conflit. 
 * Lorsque vous n'avez pas de conflit, vous pouvez alors appliquer les modifications en cliquant sur ***"Merge pull request"*** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/Merge.jpg)
+    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.jpg)
 * Vous pourrez à nouveau commenter votre action avant de cliquer sur ***"Confirm merge"*** .
 * Un message apparaît vous confirmant les modifications. Vous avez la possibilité de supprimer la branche sur laquelle les modifications ont été effectuées.
 * Retournez dans la branche ***master***, on constate que le fichier ***Readme&#46;md*** a bien été modifié.
