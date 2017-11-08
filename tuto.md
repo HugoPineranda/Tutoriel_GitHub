@@ -109,15 +109,15 @@ Pour créer une branche à partir de la branche ***master*** :
    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/editFile.png" height="40%" width="40%">
 * Effectuez vos modifications. Dans cet exemple, le fichier contient 2 lignes générées à partir du nom du dépôt. Nous allons rajouter une seconde ligne "Tutoriel d'utilisation de GitHub" et supprimer la première ligne :
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ligne2.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ligne2.JPG" height="40%" width="40%">
 * Dans la fenêtre  ***"Commit Changes"*** , donnez un titre  et une description à votre modification. Cette étape, le **Commit**, est très importante car elle apparaîtra sur **GitHub** et permet le suivi des différentes modifications apportées à un fichier.
 * Vous avez ensuite le choix: enregistrer les modifications sur la branche en cours, ou créer une nouvelle branche et faire une ***pull request*** que nous verrons plus tard.
 * Cliquez ensuite sur **"Commit Changes"** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/commitChanges.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/commitChanges.JPG" height="40%" width="40%">
 * On remarquera que le ***Commit*** apparaît dans votre branche ***Readme-edits***, avec l'utilisateur et la date de modification.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG" height="40%" width="40%">
 * Par contre, si vous allez dans la branche ***master***, les modifications n'ont pas été appliquées. Pour cela, il faut faire une ***pull request***.
 
 ---
@@ -126,13 +126,13 @@ Pour créer une branche à partir de la branche ***master*** :
 * ***Pull Request*** est une requête d'application des modifications appliquées à une branche dans une autre. Elle permet aussi de voir les différences entre deux branches en les comparant. Ici, on appliquera les modifications de la branche ***Readme-edits*** vers la branche ***master***.
 * Rendez-vous dans l'onglet ***Pull requests*** et cliquez sur ***"New pull request"*** .
    
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest.JPG" height="40%" width="40%">
 * Choisissez les deux branches à comparer: `base` sera la branche à laquelle on veut appliquer les modifications (ici, ***master***), et `compare` celle que l'on a déjà modifié (ici, ***Readme-edits***)
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest2.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/pullRequest2.JPG" height="40%" width="40%">
 * Plus bas, vous avez accès à la comparaison entre les 2 branches: les additions en vert et les suppressions en rouge.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/modifs.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/modifs.JPG" height="40%" width="40%">
 * Si vous êtes satisfait, cliquez sur ***"Create pull request"*** , donnez un titre et une description à votre requête, puis cliquez à nouveau sur ***"Create pull request"*** .
 * Votre requête est créée. Les autres utilisateurs peuvent la passer en revue et la commenter dans l'onglet ***Pull requests***.
 
@@ -143,12 +143,12 @@ Pour créer une branche à partir de la branche ***master*** :
 * Si **GitHub** détecte un conflit entre les deux branches, vous devrez au préalable résoudre ce conflit. 
 * Lorsque vous n'avez pas de conflit, vous pouvez alors appliquer les modifications en cliquant sur ***"Merge pull request"*** .
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge.JPG" height="40%" width="40%">
 * Vous pourrez à nouveau commenter votre action avant de cliquer sur ***"Confirm merge"*** .
 * Un message apparaît vous confirmant les modifications. Vous avez la possibilité de supprimer la branche sur laquelle les modifications ont été effectuées.
 * Retournez dans la branche ***master***, on constate que le fichier ***Readme&#46;md*** a bien été modifié.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge2.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/merge2.JPG" height="40%" width="40%">
 
 ---
 
@@ -175,7 +175,7 @@ Le répertoire sur lequel on travaille est maintenant le dossier MonProjet.
 * Pour que l'ordinateur reconnaîsse notre répertoire comme dépôt local git, saisir la commande:<br>
 `git init`<br>
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/gitInit.JPG" height="40%" width="40%">
 Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous sommes maintenant par défaut dans la branche ***master*** de notre dépôt.
 
 ---
@@ -185,7 +185,7 @@ Le répertoire **.git** est un dossier caché, il ne s'affichera pas. Nous somme
 `git clone <adresse>`<br>
 **Attention**, l'adresse doit se terminer par un **.git**.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/clone.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/clone.JPG" height="40%" width="40%">
 
  ---   
 ### ***Création du fichier Readme&#46;md:***
@@ -196,7 +196,7 @@ Le fichier a été créé dans notre répertoire.
 * Pour vérifier si **Git** le détecte, saisir la commande:<br>
 `git status`<br>
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/untracked.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/untracked.JPG" height="40%" width="40%">
     On remarque que **Git** répertorie notre fichier comme ***untracked***.
 * Pour que notre fichier soit détecté, saisir la commande:<br>
 `git add Readme.md`
@@ -216,7 +216,7 @@ où ***user*** correspond à votre nom d'utilisateur GitHub et ***MonProjet*** c
 `git remote -v`<br>
 qui donne la liste des origines distantes connues par votre dépôt local. Votre projet devraît y apparaître en **push** (envoi de données) et en **fetch** (réception de données).
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/connect.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/connect.JPG" height="40%" width="40%">
 * Nous avons maintenant connecté notre dépôt local à notre dépôt distant.
 
 ---
@@ -234,11 +234,11 @@ où ***original-user*** est le nom d'utilisateur du compte sur lequel vous avez 
 Si l'invité nous renvoie un message d'erreur, c'est parce que nous n'avons pas spécifié la branche dans laquelle on travaille. Ici, nous utilisons la branche ***master***. Saisir la commande:<br>
 `git push --set-upstream origin master`
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/push.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/push.JPG" height="40%" width="40%">
 * Si l'on n'est pas déjà connecté, une fenêtre de connexion s'ouvrira. Entrer alors ses identifiants.
 * Vérifier sur GitHub: le fichier ***Readme&#46;md*** apparaît, ainsi que le **commit** que nous avons indiqué.
 
-    ![](https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG)
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/ajout.JPG" height="40%" width="40%">
 
 ---
 ### ***Réception de fichiers:*** ###
