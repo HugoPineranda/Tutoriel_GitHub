@@ -117,7 +117,7 @@ Pour créer une branche à partir de la branche ***master*** :
     <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/commitChanges.JPG" height="40%" width="40%">
 * On remarquera que le ***Commit*** apparaît dans votre branche ***Readme-edits***, avec l'utilisateur et la date de modification.
 
-    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG" height="60%" width="60%">
+    <img src="https://github.com/HugoPineranda/Tutoriel_GitHub/blob/master/images/notifCommit.JPG" height="80%" width="80%">
 * Par contre, si vous allez dans la branche ***master***, les modifications n'ont pas été appliquées. Pour cela, il faut faire une ***pull request***.
 
 ---
